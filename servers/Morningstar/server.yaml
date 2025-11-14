@@ -1,0 +1,20 @@
+name: Morningstar
+type: remote
+dynamic:
+    tools: true
+meta:
+    category: Finance
+    tags:
+        - Finance
+        - remote
+about:
+    title: Morningstar
+    description: Morningstar
+    icon: https://www.morningstar.com/assets/img/morningstar.d826858.svg
+remote:
+    transport_type: streamable-http
+    url: https://mcp.morningstar.com/mcp
+oauth:
+    - provider: Morningstar
+      secret: Morningstar.personal_access_token
+      env: MORNINGSTAR_PERSONAL_ACCESS_TOKEN
